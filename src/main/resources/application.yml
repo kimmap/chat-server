@@ -1,0 +1,42 @@
+spring:
+  data:
+    rest:
+      base-path: /api
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: "sarah"
+    password: "tmvmflddldlfals123#"
+    url: "jdbc:mariadb://210.99.216.155:13306/test?autoReconnect=true&characterEncoding=UTF8&serverTimezone=UTC&rewriteBatchedStatements=true"
+  jpa:
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        #        generate_statistics: true
+        jdbc:
+          batch_size: 1000000
+          order_inserts: true
+          order_updates: true
+#  web:
+#    resources:
+#      static-locations: classpath:/
+#  thymeleaf:
+#    prefix: classpath:/
+server:
+  tomcat:
+    basedir: ./logs/access-logs
+    accesslog:
+      enabled: false
+  port: 8080
+logging:
+  level:
+    root: info
+    org.hibernate:
+      #      type.descriptor.sql.BasicBinder: trace
+      SQL: trace
+  #      stat: info
+  file:
+    path: ./logs

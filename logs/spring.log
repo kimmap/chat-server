@@ -1,0 +1,91 @@
+2022-12-23 11:43:09.397  INFO 12268 --- [restartedMain] com.kimmap.chatserver.Application        : Starting Application using Java 1.8.0_292 on kimjhui-MacBookPro.local with PID 12268 (/Users/kimjhestsecurity.com/Documents/projects/chat-server/build/classes/java/main started by kimjhestsecurity.com in /Users/kimjhestsecurity.com/Documents/projects/chat-server)
+2022-12-23 11:43:09.401  INFO 12268 --- [restartedMain] com.kimmap.chatserver.Application        : No active profile set, falling back to 1 default profile: "default"
+2022-12-23 11:43:09.528  INFO 12268 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-23 11:43:09.529  INFO 12268 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-23 11:43:11.686  WARN 12268 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.kimmap.chatserver]' package. Please check your configuration.
+2022-12-23 11:43:13.705  INFO 12268 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2022-12-23 11:43:13.731  INFO 12268 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-23 11:43:13.732  INFO 12268 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-23 11:43:15.399  INFO 12268 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-23 11:43:15.400  INFO 12268 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5869 ms
+2022-12-23 11:43:17.042  INFO 12268 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-23 11:43:17.157  INFO 12268 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2022-12-23 11:43:17.163  INFO 12268 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2022-12-23 11:43:17.164  INFO 12268 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@4c1cda10]]
+2022-12-23 11:43:17.165  INFO 12268 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2022-12-23 11:43:17.197  INFO 12268 --- [restartedMain] com.kimmap.chatserver.Application        : Started Application in 10.019 seconds (JVM running for 13.312)
+2022-12-23 11:44:10.481  INFO 12268 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-23 11:44:10.482  INFO 12268 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-23 11:44:10.484  INFO 12268 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-12-23 11:44:10.564  INFO 12268 --- [http-nio-8888-exec-1] c.k.c.controller.ChatRoomController      : SHOW ALL ChatList []
+2022-12-23 11:44:15.936  INFO 12268 --- [MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2022-12-23 11:44:17.774  INFO 12268 --- [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopping...
+2022-12-23 11:44:17.775  INFO 12268 --- [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@4c1cda10]]
+2022-12-23 11:44:17.777  INFO 12268 --- [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopped.
+2022-12-23 11:44:40.959  INFO 12283 --- [restartedMain] com.kimmap.chatserver.Application        : Starting Application using Java 1.8.0_292 on kimjhui-MacBookPro.local with PID 12283 (/Users/kimjhestsecurity.com/Documents/projects/chat-server/build/classes/java/main started by kimjhestsecurity.com in /Users/kimjhestsecurity.com/Documents/projects/chat-server)
+2022-12-23 11:44:40.963  INFO 12283 --- [restartedMain] com.kimmap.chatserver.Application        : No active profile set, falling back to 1 default profile: "default"
+2022-12-23 11:44:41.108  INFO 12283 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-23 11:44:41.109  INFO 12283 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-23 11:44:42.907  WARN 12283 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.kimmap.chatserver]' package. Please check your configuration.
+2022-12-23 11:44:45.412  INFO 12283 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2022-12-23 11:44:45.479  INFO 12283 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-23 11:44:45.481  INFO 12283 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-23 11:44:48.185  INFO 12283 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-23 11:44:48.186  INFO 12283 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7075 ms
+2022-12-23 11:44:49.785  INFO 12283 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-23 11:44:49.884  INFO 12283 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2022-12-23 11:44:49.891  INFO 12283 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2022-12-23 11:44:49.892  INFO 12283 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@7c14205e]]
+2022-12-23 11:44:49.893  INFO 12283 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2022-12-23 11:44:49.923  INFO 12283 --- [restartedMain] com.kimmap.chatserver.Application        : Started Application in 11.32 seconds (JVM running for 14.904)
+2022-12-23 11:45:02.257  INFO 12283 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-23 11:45:02.258  INFO 12283 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-23 11:45:02.261  INFO 12283 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-12-23 11:45:02.340  INFO 12283 --- [http-nio-8888-exec-1] c.k.c.controller.ChatRoomController      : SHOW ALL ChatList []
+2022-12-23 11:45:48.731  INFO 12283 --- [MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2022-12-23 11:45:56.053  INFO 12283 --- [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopping...
+2022-12-23 11:45:56.054  INFO 12283 --- [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@7c14205e]]
+2022-12-23 11:45:56.055  INFO 12283 --- [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopped.
+2022-12-23 11:46:10.763  INFO 12303 --- [restartedMain] com.kimmap.chatserver.Application        : Starting Application using Java 1.8.0_292 on kimjhui-MacBookPro.local with PID 12303 (/Users/kimjhestsecurity.com/Documents/projects/chat-server/build/classes/java/main started by kimjhestsecurity.com in /Users/kimjhestsecurity.com/Documents/projects/chat-server)
+2022-12-23 11:46:10.767  INFO 12303 --- [restartedMain] com.kimmap.chatserver.Application        : No active profile set, falling back to 1 default profile: "default"
+2022-12-23 11:46:10.870  INFO 12303 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-23 11:46:10.871  INFO 12303 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-23 11:46:12.336  WARN 12303 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.kimmap.chatserver]' package. Please check your configuration.
+2022-12-23 11:46:13.751  INFO 12303 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2022-12-23 11:46:13.765  INFO 12303 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-23 11:46:13.765  INFO 12303 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-23 11:46:17.823  INFO 12303 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-23 11:46:17.824  INFO 12303 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6952 ms
+2022-12-23 11:46:18.862  INFO 12303 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-23 11:46:19.051  INFO 12303 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2022-12-23 11:46:19.055  INFO 12303 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2022-12-23 11:46:19.055  INFO 12303 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@57889cb6]]
+2022-12-23 11:46:19.056  INFO 12303 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2022-12-23 11:46:19.084  INFO 12303 --- [restartedMain] com.kimmap.chatserver.Application        : Started Application in 9.498 seconds (JVM running for 15.557)
+2022-12-23 11:47:18.128  INFO 12303 --- [MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2022-12-23 11:48:19.013  INFO 12303 --- [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopping...
+2022-12-23 11:48:19.014  INFO 12303 --- [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@57889cb6]]
+2022-12-23 11:48:19.014  INFO 12303 --- [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopped.
+2022-12-23 11:48:32.940  INFO 12351 --- [restartedMain] com.kimmap.chatserver.Application        : Starting Application using Java 1.8.0_292 on kimjhui-MacBookPro.local with PID 12351 (/Users/kimjhestsecurity.com/Documents/projects/chat-server/build/classes/java/main started by kimjhestsecurity.com in /Users/kimjhestsecurity.com/Documents/projects/chat-server)
+2022-12-23 11:48:32.943  INFO 12351 --- [restartedMain] com.kimmap.chatserver.Application        : No active profile set, falling back to 1 default profile: "default"
+2022-12-23 11:48:33.060  INFO 12351 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-23 11:48:33.061  INFO 12351 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-23 11:48:34.489  WARN 12351 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.kimmap.chatserver]' package. Please check your configuration.
+2022-12-23 11:48:35.899  INFO 12351 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-23 11:48:35.915  INFO 12351 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-23 11:48:35.916  INFO 12351 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-12-23 11:48:41.537  INFO 12351 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-23 11:48:41.538  INFO 12351 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 8476 ms
+2022-12-23 11:48:42.736  INFO 12351 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-23 11:48:42.967  INFO 12351 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-23 11:48:42.972  INFO 12351 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2022-12-23 11:48:42.974  INFO 12351 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@11fecf3]]
+2022-12-23 11:48:42.975  INFO 12351 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2022-12-23 11:48:43.001  INFO 12351 --- [restartedMain] com.kimmap.chatserver.Application        : Started Application in 10.97 seconds (JVM running for 17.946)
+2022-12-23 11:48:43.082  INFO 12351 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-23 11:48:43.083  INFO 12351 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-23 11:48:43.085  INFO 12351 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-12-23 11:48:43.148  INFO 12351 --- [http-nio-8080-exec-1] c.k.c.controller.ChatRoomController      : SHOW ALL ChatList []
+2022-12-23 11:48:45.425  INFO 12351 --- [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopping...
+2022-12-23 11:48:45.426  INFO 12351 --- [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@11fecf3]]
+2022-12-23 11:48:45.427  INFO 12351 --- [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopped.
